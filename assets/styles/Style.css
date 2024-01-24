@@ -1,3 +1,4 @@
+/*header section*/
 @font-face {
   font-family: "Gilroy";
   src: url("../Fonts/Regular.eot");
@@ -105,7 +106,9 @@ header .header-img {
 header .header-img img {
   width: 100%;
 }
+/*End header section*/
 
+/*Main Section*/
 .wrapper {
   background-color: #f6f6f6;
 }
@@ -196,7 +199,9 @@ header .header-img img {
   line-height: normal;
   color: #070707;
 }
+/*End Main Section*/
 
+/*Footer Section*/
 .footer {
   text-align: center;
   padding: 114px 0 123px 0;
@@ -242,4 +247,5 @@ header .header-img img {
 
 html {
   scroll-behavior: smooth;
-} /*# sourceMappingURL=Style.css.map */
+} 
+/*End Footer Section*/
