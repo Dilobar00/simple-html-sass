@@ -1,92 +1,48 @@
-/*Main Section*/
-.wrapper {
-  background-color: #f6f6f6;
-}
-.wrapper .content {
-  padding: 181px 0 107px 0;
-  width: 40%;
-  text-align: center;
-  margin: 0 auto;
-}
-.wrapper .content .content-title {
-  color: #070707;
-  font-size: 34px;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 17px;
-}
-.wrapper .content p {
-  margin-bottom: 40px;
-  color: #070707;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.sidebar {
-  padding: 91px 0 110px 0;
-}
-.sidebar .sidebar-title {
-  margin-bottom: 83px;
-  text-align: center;
-}
-.sidebar .sidebar-title h3 {
-  color: #070707;
-  font-size: 34px;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 70px;
-}
-.sidebar .sidebar-title p {
-  color: #070707;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
-}
-.sidebar .sidebar-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.sidebar .sidebar-content .sidebar-item {
-  text-align: center;
-}
-.sidebar .sidebar-content .sidebar-item .card-img {
-  margin-bottom: 24px;
-}
-.sidebar .sidebar-content .sidebar-item p {
-  color: #828282;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 42px;
-}
-
-.sectionPort {
-  padding-top: 112px;
-  text-align: center;
-}
-.sectionPort h1 {
-  color: #070707;
-  font-size: 34px;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 47px;
-}
-.sectionPort .sectionPort-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  gap: 45px;
-  padding-bottom: 99px;
-}
-.sectionPort .sectionPort-body a {
-  padding: 10px 15px;
-  text-decoration: underline;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: normal;
-  color: #070707;
-}
-/*End Main Section*/
+/*Footer Section*/
+.footer {
+    text-align: center;
+    padding: 114px 0 123px 0;
+  }
+  .footer h4 {
+    color: #070707;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  .footer p {
+    color: #070707;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  .footer button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 86px;
+    background-color: #000;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 60px;
+  }
+  .footer .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 45px;
+  }
+  .footer span {
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  } 
+  /*End Footer Section*/
