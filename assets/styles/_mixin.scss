@@ -1,0 +1,11 @@
+@mixin dFlex ( $justContnet: space-between, $alignItems: center) {
+    display: flex;
+    justify-content: $justContnet;
+    align-items: $alignItems;
+}
+
+$primaryColor: #070707;
+
+$secondaryColor: #828282;
+
+$backgroundColor: #F6F6F6;
