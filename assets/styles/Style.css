@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
 }
 
@@ -62,6 +62,16 @@ header ul li a:first-of-type {
 }
 header ul li a:last-of-type {
   padding-right: 0;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+}
+.nav button {
+  background: transparent;
+  display: none;
+  border: none;
+  cursor: pointer;
 }
 header .header-title {
   display: flex;

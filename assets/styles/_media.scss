@@ -1,0 +1,40 @@
+@media (max-width: 1140px) {
+    .sidebar {
+      &_content {
+        gap: 10px;
+      }
+    }
+  
+    .wrapper {
+      .container {
+        .sectionPort-body {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 560px) {
+    .header-top {
+      ul {
+        display: none;
+      }
+      .nav {
+        button {
+          display: block;
+          padding: 3rem 0;
+        }
+      }
+    }
+    .header-bot {
+        .header-title{  
+          flex-direction: column;
+          align-items: flex-start;
+            .header-language {
+              display: none;
+            }
+        }
+    }
+  }
