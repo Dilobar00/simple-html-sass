@@ -50,7 +50,9 @@
 
     .sidebar-content {
         @include dFlex;
-
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
         .sidebar-item {
             text-align: center;
 
